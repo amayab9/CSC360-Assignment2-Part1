@@ -16,7 +16,7 @@ public class TestOctagon {
         Octagon oct2 = (Octagon) oct1.clone(); // clone it
         System.out.println(oct2.toString()); //display the clone
 
-        System.out.println(oct1.compareTo(oct2));
+        System.out.println("Octagon 1 compared to Octagon 2: " + oct1.compareTo(oct2));
     }
     
     //Octagon oct2 = new Octagon();
